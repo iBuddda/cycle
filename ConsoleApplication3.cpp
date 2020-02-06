@@ -2,10 +2,22 @@
 //
 
 #include <iostream>
-
+using namespace std;
 int main()
 {
-    std::cout << "Hello World!\n";
+    setlocale(LC_ALL, "Russian");
+    int a = 0;
+    cout << "Введите число\n";
+    cin >> a;
+    int i = 0;
+    while (i < a)
+    {
+        cout << "20 \n";
+        i++;
+    }
+    
+
+
 }
 
 // Запуск программы: CTRL+F5 или меню "Отладка" > "Запуск без отладки"
